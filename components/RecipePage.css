@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+.home-search {
+    display: flex;
+}
+
+.home-search input[type="text"] {
+    padding: 10px;
+    width: 300px;
+}
+
+.home-search button {
+    padding: 10px 20px;
+    background-color: #1db954;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.recipe-hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.recipe-info {
+    flex: 1;
+}
+
+.recipe-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recipe-info p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.recipe-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recipe-info li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.recipe-info span {
+    font-weight: bold;
+    color: #333;
+}
+
+.recipe-ingredients,
+.recipe-instructions {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2em;
+    margin: 1em 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-ingredients h2,
+.recipe-instructions h2 {
+    font-size: 20px;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.recipe-ingredients ul {
+    list-style: disc inside;
+}
+
+.recipe-instructions ol {
+    list-style: decimal inside;
+}
